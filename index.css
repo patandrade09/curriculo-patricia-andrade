@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+body,
+html {
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+h1 {
+  margin-top: 60px;
+  align-self: center;
+}
+
+h3 {
+  margin-top: 40px;
+  
+}
+
+.objectives {
+  margin-bottom: 1px;
+  margin-left: 60px
+}
+
+.title {
+  margin-top: 0.5px;
+  margin-bottom: 1px;
+  align-self: center;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 50px;
+}
+
+.mainCard {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 900px;
+  background-color: #2b0647;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  color: aliceblue;
+}
+.contactCard {
+  display: flex;
+  flex-direction: column;
+  line-height: 0.5px;
+  width: 20rem;
+  margin-top: 35px;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  line-height: 2px;
+  min-height: fit-content;
+  margin-top: 35px;
+}
